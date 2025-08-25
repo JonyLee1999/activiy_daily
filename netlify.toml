@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/o2o-2x2-platforms-no-cross-arrows.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/o2o-2x2-platforms-no-cross-arrows.html"
+  status = 404
